@@ -29,8 +29,8 @@ Profile.init(
   },
   {
     sequelize,
-    modelName: 'Profile'
-  }
+    modelName: 'Profile',
+  },
 );
 
 class Contract extends Sequelize.Model { }

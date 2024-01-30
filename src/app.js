@@ -17,7 +17,6 @@ app.set('models', sequelize.models);
 
 app.use('/contracts', getProfile, contractsRouter);
 app.use('/jobs', getProfile, jobsRouter);
-//app.use('/balances', balancesRouter);
 app.use('/admin', adminRouter);
 
 module.exports = app;
